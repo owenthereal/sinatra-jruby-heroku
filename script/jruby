@@ -80,7 +80,7 @@ then
   REPO="$BASEDIR"/.m2/repository
 fi
 
-CLASSPATH=$CLASSPATH_PREFIX:"$BASEDIR"/etc:"$REPO"/org/jruby/jruby-complete/1.6.3/jruby-complete-1.6.3.jar
+CLASSPATH=$CLASSPATH_PREFIX:"$BASEDIR"/etc:"$REPO"/org/jruby/jruby-complete/1.6.5.1/jruby-complete-1.6.5.1.jar
 EXTRA_JVM_ARGUMENTS=""
 
 echo "Classpath is: $CLASSPATH"
